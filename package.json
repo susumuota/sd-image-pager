@@ -1,8 +1,8 @@
 {
   "name": "sd-image-pager",
   "productName": "sd-image-pager",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "version": "0.1.0",
+  "description": "A minimal image viewer Desktop app for macOS, Windows and Linux.",
   "main": ".vite/build/main.js",
   "scripts": {
     "start": "electron-forge start",
@@ -11,10 +11,16 @@
     "publish": "electron-forge publish",
     "lint": "eslint --ext .ts,.tsx ."
   },
-  "keywords": [],
+  "keywords": [
+    "image viewer",
+    "image",
+    "viewer",
+    "electron"
+  ],
   "author": {
     "name": "Susumu OTA",
-    "email": "1632335+susumuota@users.noreply.github.com"
+    "email": "1632335+susumuota@users.noreply.github.com",
+    "url": "https://github.com/susumuota"
   },
   "license": "MIT",
   "devDependencies": {
